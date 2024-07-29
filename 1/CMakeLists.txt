@@ -5,7 +5,7 @@ project(1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(1 main.cpp ini_parsec.h ini_parsec.cpp)
+add_executable(1 main.cpp ini_parser.h ini_parser.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS 1
